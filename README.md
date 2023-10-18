@@ -1,2 +1,2 @@
 # Pong
- Single Pong Game created using C++ SFML
+ Simple Pong Game created using C++ SFML
