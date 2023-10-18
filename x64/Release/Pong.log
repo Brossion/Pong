@@ -1,0 +1,7 @@
+﻿  Ball.cpp
+C:\VS Projects\Pong\Ball.h(2,10): fatal  error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Bat.cpp
+C:\VS Projects\Pong\Bat.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\VS Projects\Pong\Bat.h(2,10): fatal  error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Pong.cpp
+C:\VS Projects\Pong\Bat.h(2,10): fatal  error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
