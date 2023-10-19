@@ -72,7 +72,7 @@ int main()
 		}
 
 		// Handle the pressing and releasing of the arrow keys
-		if (Keyboard::isKeyPressed(Keyboard::Left))
+		if (Keyboard::isKeyPressed(Keyboard::Left) && bat.getPosition().left > 0)
 		{
 			bat.MoveLeft();
 		}
@@ -81,7 +81,7 @@ int main()
 			bat.StopLeft();
 		}
 
-		if (Keyboard::isKeyPressed(Keyboard::Right))
+		if (Keyboard::isKeyPressed(Keyboard::Right) && bat.getPosition().left + 160 < window.getSize().x)
 		{
 			bat.MoveRight();
 		}

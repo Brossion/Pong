@@ -11,7 +11,7 @@ private:
 	// A RectangleShape object
 	RectangleShape m_Shape;
 
-	float m_Speed = 1000.0f;
+	float m_Speed = 800.0f;
 
 	bool m_MovingLeft = false;
 	bool m_MovingRight = false;
